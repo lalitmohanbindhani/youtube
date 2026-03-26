@@ -1,9 +1,11 @@
-import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-lg bg-green-400">Welcome</h1>
+      <Head />
+      <Body />
     </div>
   );
 }
