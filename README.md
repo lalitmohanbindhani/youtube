@@ -27,3 +27,7 @@ destroy the component and it will call useEffct ret
 re-render the component
 useEffetc() is called
 start timer => make api call after 200ms
+
+The search is using live api
+the search is using debouncing
+the search is using caching
